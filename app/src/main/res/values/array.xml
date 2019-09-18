@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="Cool">
+        <item>Vert</item>
+        <item>Jaune</item>
+        <item>Rouge</item>
+    </array>
+    <array name="dd">
+        <item>Vert</item>
+        <item>Jaune</item>
+        <item>Rouge</item>
+    </array>
+</resources>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="Réseau">
+
+        <CheckBoxPreference
+            android:key="check_box_preference_1"
+            android:title="Check box preference"
+            android:summaryOn="IAM WIFI"
+            android:summaryOff="3G"/>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Connexion">
+
+        <EditTextPreference
+            android:key="edit_text_preference_1"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:title="Edit text preference"
+            android:dialogTitle="Prince"
+            android:negativeButtonText="Annuler"
+            android:positiveButtonText="Valider"
+            android:dependency="check_box_preference_1"
+            />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Couleur">
+
+        <ListPreference
+            android:defaultValue="1"
+            android:entries="@array/Cool"
+            android:entryValues="@array/dd"
+            android:key="list_preference_1"
+            android:title="List preference" />
+    </PreferenceCategory>
+</PreferenceScreen>
